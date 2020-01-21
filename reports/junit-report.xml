@@ -1,60 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuites>
-    <testsuite name="systembolaget-projekt;search-for-&quot;gambrinus&quot;-på-systemboget" tests="3" failures="1" skipped="0">
+    <testsuite name="systembolaget-projekt;search-for-&quot;gambrinus&quot;-på-systemboget" tests="3" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Admin/Downloads/systembolaget/systembolaget/features/search-systembolaget.feature">
+            <property name="URI" value="C:/Users/sergejs.sulziks/Documents/TH/Backup/systembolaget/features/search-systembolaget.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the page www.systembolaget.se" classname="systembolaget-projekt;search-for-&quot;gambrinus&quot;-på-systemboget" time="14.7975554">
+        <testcase name="Given that I am on the page www.systembolaget.se" classname="systembolaget-projekt;search-for-&quot;gambrinus&quot;-på-systemboget" time="11.034317001">
         </testcase>
-        <testcase name="When I search for &quot;gambrinus&quot;" classname="systembolaget-projekt;search-for-&quot;gambrinus&quot;-på-systemboget" time="1.5216479">
+        <testcase name="When I search for &quot;gambrinus&quot;" classname="systembolaget-projekt;search-for-&quot;gambrinus&quot;-på-systemboget" time="1.762182499">
         </testcase>
-        <testcase name="Then the products text includes &quot;Maltig smak med inslag av knäckebröd, aprikos, örter&quot;" classname="systembolaget-projekt;search-for-&quot;gambrinus&quot;-på-systemboget" time="4.101833099">
-            <failure message="TypeError: Cannot read property &apos;click&apos; of null">TypeError: Cannot read property &apos;click&apos; of null
-    at createWorld.&lt;anonymous&gt; (C:\Users\Admin\Downloads\systembolaget\systembolaget\step-definitions\search-systembolaget.js:27:23)</failure>
+        <testcase name="Then the products text includes &quot;Maltig smak med inslag av knäckebröd, aprikos, örter&quot;" classname="systembolaget-projekt;search-for-&quot;gambrinus&quot;-på-systemboget" time="4.137968301">
         </testcase>
     </testsuite>
-    <testsuite name="systembolaget-projekt;search-for-&quot;ballast&quot;-på-systemboget" tests="3" failures="1" skipped="0">
+    <testsuite name="systembolaget-projekt;search-for-&quot;ballast&quot;-på-systemboget" tests="3" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Admin/Downloads/systembolaget/systembolaget/features/search-systembolaget.feature">
+            <property name="URI" value="C:/Users/sergejs.sulziks/Documents/TH/Backup/systembolaget/features/search-systembolaget.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the page www.systembolaget.se" classname="systembolaget-projekt;search-for-&quot;ballast&quot;-på-systemboget" time="14.292428999">
+        <testcase name="Given that I am on the page www.systembolaget.se" classname="systembolaget-projekt;search-for-&quot;ballast&quot;-på-systemboget" time="9.5788613">
         </testcase>
-        <testcase name="When I search for &quot;ballast&quot;" classname="systembolaget-projekt;search-for-&quot;ballast&quot;-på-systemboget" time="1.975142401">
+        <testcase name="When I search for &quot;ballast&quot;" classname="systembolaget-projekt;search-for-&quot;ballast&quot;-på-systemboget" time="1.9476047">
         </testcase>
-        <testcase name="Then the products list contains several products" classname="systembolaget-projekt;search-for-&quot;ballast&quot;-på-systemboget" time="0.101747499">
-            <failure message="TypeError: Cannot read property &apos;length&apos; of null">TypeError: Cannot read property &apos;length&apos; of null
-    at createWorld.&lt;anonymous&gt; (C:\Users\Admin\Downloads\systembolaget\systembolaget\step-definitions\search-systembolaget.js:35:69)
-    at process._tickCallback (internal/process/next_tick.js:68:7)</failure>
+        <testcase name="Then the products list contains several products" classname="systembolaget-projekt;search-for-&quot;ballast&quot;-på-systemboget" time="4.0171866">
         </testcase>
     </testsuite>
     <testsuite name="systembolaget-projekt;hitta-systembolaget-i-burlövs-centrum-och-bekräfta-att-de-har-öppet-10.00-19.00-på-fredagar." tests="3" failures="0" skipped="0">
         <properties>
-            <property name="URI" value="C:/Users/Admin/Downloads/systembolaget/systembolaget/features/search-systembolaget.feature">
+            <property name="URI" value="C:/Users/sergejs.sulziks/Documents/TH/Backup/systembolaget/features/search-systembolaget.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the page www.systembolaget.se" classname="systembolaget-projekt;hitta-systembolaget-i-burlövs-centrum-och-bekräfta-att-de-har-öppet-10.00-19.00-på-fredagar." time="16.437104699">
+        <testcase name="Given that I am on the page www.systembolaget.se" classname="systembolaget-projekt;hitta-systembolaget-i-burlövs-centrum-och-bekräfta-att-de-har-öppet-10.00-19.00-på-fredagar." time="10.675914499">
         </testcase>
-        <testcase name="When I search for systembolaget i &quot;Burlövs Centrum&quot;" classname="systembolaget-projekt;hitta-systembolaget-i-burlövs-centrum-och-bekräfta-att-de-har-öppet-10.00-19.00-på-fredagar." time="23.9043996">
+        <testcase name="When I search for systembolaget i &quot;Burlövs Centrum&quot;" classname="systembolaget-projekt;hitta-systembolaget-i-burlövs-centrum-och-bekräfta-att-de-har-öppet-10.00-19.00-på-fredagar." time="22.975976701">
         </testcase>
-        <testcase name="Then confirm that is open from &quot;10:00&quot; to &quot;19:00&quot; on &quot;Fredag&quot;" classname="systembolaget-projekt;hitta-systembolaget-i-burlövs-centrum-och-bekräfta-att-de-har-öppet-10.00-19.00-på-fredagar." time="5.137928401">
+        <testcase name="Then confirm that is open from &quot;10:00&quot; to &quot;19:00&quot; on &quot;Fredag&quot;" classname="systembolaget-projekt;hitta-systembolaget-i-burlövs-centrum-och-bekräfta-att-de-har-öppet-10.00-19.00-på-fredagar." time="5.1565003">
         </testcase>
     </testsuite>
-    <testsuite name="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget" tests="5" failures="0" skipped="0">
+    <testsuite name="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget-and-add-to-shopping-cart" tests="6" failures="1" skipped="1">
         <properties>
-            <property name="URI" value="C:/Users/Admin/Downloads/systembolaget/systembolaget/features/search-systembolaget.feature">
+            <property name="URI" value="C:/Users/sergejs.sulziks/Documents/TH/Backup/systembolaget/features/search-systembolaget.feature">
             </property>
         </properties>
-        <testcase name="Given that I am on the page www.systembolaget.se" classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget" time="14.1612726">
+        <testcase name="Given that I am on the page www.systembolaget.se" classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget-and-add-to-shopping-cart" time="8.9027207">
         </testcase>
-        <testcase name="When I search for &quot;Nanny state&quot;" classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget" time="1.629610801">
+        <testcase name="When I search for &quot;Nanny state&quot;" classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget-and-add-to-shopping-cart" time="1.766458599">
         </testcase>
-        <testcase name="Then put it in the cart and go to the cart" classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget" time="0.0003753">
+        <testcase name="Then put it in the shopping cart," classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget-and-add-to-shopping-cart" time="2.115391701">
         </testcase>
-        <testcase name="And then enter store &quot;Hansa&quot;" classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget" time="0.000246099">
+        <testcase name="And go to the shopping cart," classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget-and-add-to-shopping-cart" time="7.3418856">
         </testcase>
-        <testcase name="And then confirm that there are more 10 pieces in this store" classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget" time="0.0002186">
+        <testcase name="And enter the shop &quot;Hansa&quot;" classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget-and-add-to-shopping-cart" time="9.3411168">
+            <failure message="TypeError: Cannot read property &apos;click&apos; of null">TypeError: Cannot read property &apos;click&apos; of null
+    at createWorld.&lt;anonymous&gt; (C:\Users\sergejs.sulziks\Documents\TH\Backup\systembolaget\step-definitions\search-systembolaget.js:104:20)</failure>
+        </testcase>
+        <testcase name="And and confirm that there are more than 10 copies in this store." classname="systembolaget-projekt;search-for-&quot;nanny-state&quot;-på-systemboget-and-add-to-shopping-cart">
+            <skipped message="">
+            </skipped>
         </testcase>
     </testsuite>
 </testsuites>
