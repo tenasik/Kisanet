@@ -1,13 +1,14 @@
 {
   "name": "seleniumexempel",
   "version": "1.0.0",
+  "repository": "https://github.com/tenasik/Kisanet.git",
   "main": "index.js",
   "dependencies": {
     "selenium-cucumber-js": "^1.6.2"
   },
   "devDependencies": {},
   "scripts": {
-    "test": "node ./node_modules/selenium-cucumber-js/index.js -b firefox && exit 1"
+    "test": "node ./node_modules/selenium-cucumber-js/index.js && exit 1"
   },
 
   "author": "",
