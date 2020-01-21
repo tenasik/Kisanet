@@ -1,4 +1,4 @@
-Feature: Systembolaget 
+Feature: Systembolaget projekt
 
 Scenario: Search for "gambrinus" på systemboget
 Given that I am on the page www.systembolaget.se
