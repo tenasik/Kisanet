@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name=";successfully-sök-product-på-systemnolagets-webb" tests="4" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/Admin/Desktop/git/cucumber-intro/features/search-alcohol.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the Systembolaget.se page" classname=";successfully-sök-product-på-systemnolagets-webb" time="15.0026556">
+            <failure message="function timed out after 15000 milliseconds">function timed out after 15000 milliseconds</failure>
+        </testcase>
+        <testcase name="And then I am searching a product" classname=";successfully-sök-product-på-systemnolagets-webb">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I get the product" classname=";successfully-sök-product-på-systemnolagets-webb">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And then I should check the product included ”Maltig smak med inslag av knäckebröd, aprikos, örter, apelsinskal och honung”." classname=";successfully-sök-product-på-systemnolagets-webb">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";successfully-sök-a-product-på-systemnolagets-webb" tests="4" failures="1" skipped="3">
+        <properties>
+            <property name="URI" value="C:/Users/Admin/Desktop/git/cucumber-intro/features/search-alcohol.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the Systembolaget.se page" classname=";successfully-sök-a-product-på-systemnolagets-webb" time="14.9999647">
+            <failure message="function timed out after 15000 milliseconds">function timed out after 15000 milliseconds</failure>
+        </testcase>
+        <testcase name="And then I am searching after ”ballast”" classname=";successfully-sök-a-product-på-systemnolagets-webb">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I get the product" classname=";successfully-sök-a-product-på-systemnolagets-webb">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should report how many items are available in the intire range as well as  through agents." classname=";successfully-sök-a-product-på-systemnolagets-webb">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";successufully-hitta-systembolaget-på-annat-ort" tests="3" failures="1" skipped="2">
+        <properties>
+            <property name="URI" value="C:/Users/Admin/Desktop/git/cucumber-intro/features/search-alcohol.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the Systembolaget.se page" classname=";successufully-hitta-systembolaget-på-annat-ort" time="15.000453299">
+            <failure message="function timed out after 15000 milliseconds">function timed out after 15000 milliseconds</failure>
+        </testcase>
+        <testcase name="And then I am finding the system company in Burlöv Centrum" classname=";successufully-hitta-systembolaget-på-annat-ort">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And then confirm they have open 10.00-19.00 on Fridays." classname=";successufully-hitta-systembolaget-på-annat-ort">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name=";successfully-sök-en-produkt" tests="6" failures="1" skipped="5">
+        <properties>
+            <property name="URI" value="C:/Users/Admin/Desktop/git/cucumber-intro/features/search-alcohol.feature">
+            </property>
+        </properties>
+        <testcase name="Given that I am on the Systembolaget.se page" classname=";successfully-sök-en-produkt" time="15.0009062">
+            <failure message="function timed out after 15000 milliseconds">function timed out after 15000 milliseconds</failure>
+        </testcase>
+        <testcase name="And then I am searching after ”Nanny state”" classname=";successfully-sök-en-produkt">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When I get the product" classname=";successfully-sök-en-produkt">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then I should add the product to cart" classname=";successfully-sök-en-produkt">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And then go to the cart enter store &quot;Hansa&quot;" classname=";successfully-sök-en-produkt">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="And then confirm that there are more than 10 copies in this store." classname=";successfully-sök-en-produkt">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
