@@ -2,7 +2,7 @@
   "name": "-cucumber-intro",
   "version": "1.0.0",
   "description": "",
-  "repository": "https://github.com/tenasik/test.git",
+  "repository": "https://github.com/tenasik/hej.git",
   "main": "app.js",
   "scripts": {
     "test": "node ./node_modules/selenium-cucumber-js/index.js -b firefox && exit 1",
