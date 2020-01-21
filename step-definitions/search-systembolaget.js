@@ -23,7 +23,6 @@ module.exports = function(){
     
     this.Then(/^the products text includes "([^"]*)"$/, async function (description){
         let product = await $('.elm-product-list-item-full-info');
-        await sleep(4 *s);
         await product.click();
         await sleep(4 *s);
         let prodDescription = (await $('.description'))[0];
@@ -75,18 +74,45 @@ module.exports = function(){
         assert(sHours.includes(h2), "Close time is not correct");
       }); 
 
-      this.Then(/^put it in the cart and go to the cart$/, function () {
+      this.Then(/^put it in the shopping cart,$/, async function (){
+        // Add the product to shopping cart  
+        let obj = await $('.click-area.ng-scope.ng-isolate-scope');
+        await obj.click();
+        await sleep(2 *s);
+    }); 
         
-        
-      });
+    this.Then(/^go to the shopping cart,$/, async function (){
+        // Go to the shopping cart  
+        let  obj = await $('a[href="/varukorg"]');
+        await sleep(2 *s);
+        await obj.click();
+        await sleep(4 *s);
+    });
 
-      this.Then(/^then enter store "([^"]*)"$/, function (arg1) {
+    this.Then(/^enter the shop "([^"]*)"$/, async function (shop){
+        //Enter the name of shop  
+        let  obj = (await $('.a11y.ng-binding'))[0];
+        await obj.click();
+        await sleep(2 *s);
+        obj = await $('#site-picker-input');
+        await obj.sendKeys(shop);
+        await sleep(3 *s);
         
-        
-      });
+        //let obj2 = await $('.name.combined-match.ng-binding.ng-scope');
+        let obj2 = await $('#typeahead-24-4105-option-0 > div.name.combined-match.ng-binding.ng-scope');
+        await sleep(3 *s);
+        await obj2.click();
+        await sleep(4 *s);
+    });
 
-      this.Then(/^then confirm that there are more (\d+) pieces in this store$/, function (arg1) {
-        
-      });
+    this.Then(/^and confirm that there are more than (\d+) copies in this store.$/, async function (n){
+        // Read the quantity of the product in the shop
+        let  obj = (await $('.pull-right.bold-text.ng-binding'));
+        let textObj = await obj.getText();
+        // Extract only numbers from text
+        let numObj = textObj.replace(/[^0-9\.]+/g, "");
+        //Confirm that there are more than "n" copies
+        assert((numObj / 1) > (n / 1), "Copies of the product is less than " + n );
+    });
 
 }
